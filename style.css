@@ -1,0 +1,218 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('img/banner1.jpg');
+}
+nav{
+	width: 100%;
+	height: 5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 70px;
+	font-family: 'Poppins', sans-serif;
+	
+}
+.logo{
+	margin-top: 5px;
+	font-size: 2em;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: white;
+}
+.menu a,i{
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+	background:#6ab04c;
+	border-radius: 8px;
+	margin: 0 1rem;
+
+}
+.menu i{
+	font-size: 1.4rem;
+	margin: 0 0.4rem;
+	cursor: pointer;
+}
+.menu a:hover{
+	border-radius: 8px;
+	background-color: #6ab04c;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 70px;
+	color: white;
+}
+.left{
+	flex-basis: 70%;
+}
+.rigth{
+	/* margin-top: 50%; */
+	flex-basis: 30%;
+}
+.rigth img{
+	margin-top: 200px;
+	width: 408px;
+}
+
+.left h2{
+	font-family: 'Poppins', sans-serif;
+	color: greenyellow;
+}
+.left h1{
+font-family: 'Kalam', cursive;
+font-size: 3em;
+}
+.left p{
+	font-family: 'Poppins', sans-serif;
+	line-height: 2.5rem;
+}
+#hire{
+	text-decoration: none;
+	background-color: #6ab04c;
+	color: white;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+
+}
+#myp{
+	text-decoration: none;
+	color: white;
+	border-radius: 8px;
+	font-size: 1.5em;
+	border: 1px dashed white;
+	margin:  0 1rem;
+	padding: 1rem 2rem;
+	
+}
+#bio{
+	display: flex;
+	cursor: pointer;
+	padding: 150px 70px;
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	font-family: 'Poppins', sans-serif;
+
+}
+.leftbio{
+	flex-basis: 40%;
+	text-align: left;
+	padding: 0 40px;
+}
+.rightbio{
+	flex-basis: 60%;
+}
+.leftbio img{
+	width: 100%;
+	height: 700px;
+	border-radius: 8px;
+}
+.rightbio p{
+	margin: 15px 0;
+	line-height: 3rem;
+}
+.rightbio h1{
+	font-size: 3rem;
+
+}
+.info{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	text-align: left;
+}
+#follow{
+	text-align: center;
+	
+}
+#follow div{
+	color:#6ab04c;
+	font-size: 1.5rem;
+	margin: 0 0.5rem;
+}
+.link-h{
+	text-align: center;
+	margin-top: 3rem ;
+}
+.cv{
+	text-decoration: none;
+	border: 1px dashed grey;
+	color: black;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+
+}
+#services{
+	padding: 50px 70px;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.02);
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+
+}
+.intro h1{
+	font-size: 3rem;
+
+}
+.card{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 3rem;
+}
+.cardbody{
+	flex-basis: 30%;
+	background-color: white;
+	padding: 1rem;
+	border-radius: 8px;
+}
+.cardbody .icon img{
+	width: 3rem;
+	color: #6ab04c;
+}
+.cardbody h3{
+	font-size: 1rem;
+	margin: 0.5rem 0;
+}
+footer{
+	background-color: gray;
+	color: black;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	text-align: center;
+	font-family: 'Kalam', cursive;
+
+}
+footer span{
+	color: orange;
+}
